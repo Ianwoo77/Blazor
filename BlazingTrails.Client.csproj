@@ -35,7 +35,6 @@
 		  <ScopedScssFiles Include="Features/**/*.razor.scss" />
 		</ItemGroup>
     
-		<Exec Command="sass -- %(ScopedScssFiles.Identity) %(relativedir)%(filename).css" />
 	</Target>
 
 </Project>
